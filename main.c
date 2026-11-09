@@ -3,7 +3,7 @@
 int main(void)
 {
     float ylimit;
-    double g = 9.8;
+    double g = 3.71;
     double y = 0.0;
     double v = 0.0;
     double t;
@@ -18,6 +18,6 @@ int main(void)
         v = g * t;
         y = g * t * t / 2;
     }
-    printf("%.1f", v);
+    printf("%.3f", v);
     return 0;
 }
