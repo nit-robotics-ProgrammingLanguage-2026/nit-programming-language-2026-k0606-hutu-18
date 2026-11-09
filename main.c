@@ -2,12 +2,12 @@
 
 int main(void)
 {
-    float ylimit;
+    double ylimit;
     double g = 3.71;
     double y = 0.0;
     double v = 0.0;
     double t;
-    scanf("%f", &ylimit);
+    scanf("%lf", &ylimit);
     if (ylimit < 0)
     {
         printf("NG");
