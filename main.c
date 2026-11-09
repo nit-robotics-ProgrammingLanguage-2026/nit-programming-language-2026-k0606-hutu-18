@@ -8,7 +8,7 @@ int main(void)
     double v = 0.0;
     double t;
     scanf("%f", &ylimit);
-    if (ylimit <= 0)
+    if (ylimit < 0)
     {
         printf("NG");
         return 0;
